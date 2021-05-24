@@ -71,7 +71,6 @@ class Tag extends StatelessWidget {
                 Filter('Telephone'),
                 Filter('Tiled floor'),
                 Filter('Wooden floor'),
-                
               ],
             )
           ),

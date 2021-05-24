@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:room_features/widgets/chips.dart';
-import 'package:room_features/widgets/other_properties.dart';
+import 'package:room_features/widgets/user_chips.dart';
 
 
 class RoomProperties extends StatelessWidget {
@@ -28,9 +28,7 @@ class RoomProperties extends StatelessWidget {
         ),
 
         Tag(),
-        OtherProperties()
-
-
+        InputChipExample(),
       ],
     );
   }

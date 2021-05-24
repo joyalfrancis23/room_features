@@ -22,14 +22,17 @@ class RoomFeatures extends StatelessWidget {
            ),
         backgroundColor: Colors.cyan,
         actions: [
-          TextButton(
-            onPressed: (){}, 
-            child: Text('Rajamala Resort',
-            style: TextStyle(color: Colors.white,
-            fontSize: 10,
-            fontWeight: FontWeight.w300
+          DropdownMenuItem(
+            child: Container(alignment: Alignment.centerRight,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text('Rajamala Resort',style: TextStyle(color: Colors.white,fontSize: 11),)
+                ],
+              ),
             ),
-            ),),
+          ),
+          
         ],
       ),
       body: Container(

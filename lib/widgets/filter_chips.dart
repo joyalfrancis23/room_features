@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
+
 class Filter extends StatefulWidget {
 
-  final String tagName ;
+  final String tagName;
 
   Filter(this.tagName);
 
